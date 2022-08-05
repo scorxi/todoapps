@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,14 +6,14 @@
 
 html,
 body {
-    font-family: Raleway, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header {
-    background: #5F30E2;
+    background: #2C3333;
     padding: 16px;
     color: white;
 }
@@ -25,7 +25,7 @@ header {
 }
 
 .wrapper .container {
-    width: 1024px;
+    width: 768px;
     border-radius: 8px;
     margin: 16px;
     background: #F8F9FA;
@@ -79,7 +79,7 @@ input[type=text],
 input[type=date] {
     font-family: Raleway, sans-serif;
     background: #F5F1FF;
-    border: 2px solid #9475EA;
+    border: 2px solid #395B64;
     border-radius: 8px;
     padding: 16px;
     box-sizing: border-box;
@@ -92,16 +92,16 @@ input[type=date] {
     font-family: Raleway, sans-serif;
     border-radius: 16px;
     padding: 12px 24px;
-    border: 2px solid #5F30E2;
+    border: 2px solid #2C3333;
     color: black;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: auto;
     align-self: flex-end;
     cursor: pointer;
 }
 
 .btn-submit:hover {
-    background: #5F30E2;
+    background: #2C3333;
     color: white;
 }
 
